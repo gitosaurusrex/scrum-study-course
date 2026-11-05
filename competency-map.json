@@ -1,0 +1,789 @@
+{
+  "reviewedOn": "2026-10-14",
+  "scope": "Published PSM I and PSPO I focus areas mapped to actual course content after source-audit corrections. Direct questions test the named area; supporting questions contribute context. This is course coverage, not official validation or an exam blueprint.",
+  "officialLists": {
+    "psm": "https://www.scrum.org/assessments/professional-scrum-master-i-certification",
+    "pspo": "https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification"
+  },
+  "eligibility": {
+    "psm": "shared + psm: q01-01 through q08-10 and q09-01 through q12-10, 120 eligible questions",
+    "pspo": "shared + pspo: q01-01 through q08-10 and q13-01 through q16-10, 120 eligible questions",
+    "sampling": "core.js samples 80 by module (normally 6 or 7 from each of 12 modules). It does not guarantee representation of a focus area within a module. Scenarios never enter the rehearsal pool."
+  },
+  "matrix": [
+    {
+      "exam": "psm",
+      "focus": "Empiricism",
+      "lessons": [
+        "m01",
+        "m02",
+        "m06",
+        "m08",
+        "m12"
+      ],
+      "directQuestions": [
+        "q01-01",
+        "q01-02",
+        "q01-03",
+        "q01-04",
+        "q01-05",
+        "q01-08",
+        "q01-10",
+        "q02-08"
+      ],
+      "supportingQuestions": [
+        "q08-10",
+        "q12-08"
+      ],
+      "scenarios": [
+        "s8"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "psm",
+      "focus": "Scrum Values",
+      "lessons": [
+        "m02",
+        "m11"
+      ],
+      "directQuestions": [
+        "q02-01",
+        "q02-02",
+        "q02-03",
+        "q02-04",
+        "q02-05",
+        "q02-10",
+        "q11-08"
+      ],
+      "supportingQuestions": [
+        "q02-09"
+      ],
+      "scenarios": [],
+      "depth": "solid"
+    },
+    {
+      "exam": "psm",
+      "focus": "Scrum Team",
+      "lessons": [
+        "m03",
+        "m09",
+        "m10",
+        "m12"
+      ],
+      "directQuestions": [
+        "q03-01",
+        "q03-02",
+        "q03-03",
+        "q03-04",
+        "q03-05",
+        "q03-06",
+        "q03-07",
+        "q03-09",
+        "q03-10",
+        "q09-01",
+        "q09-03",
+        "q10-03",
+        "q10-04",
+        "q10-05",
+        "q12-04"
+      ],
+      "supportingQuestions": [
+        "q03-08",
+        "q09-02",
+        "q10-08"
+      ],
+      "scenarios": [
+        "s3",
+        "s4"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "psm",
+      "focus": "Events",
+      "lessons": [
+        "m05",
+        "m06",
+        "m09",
+        "m11",
+        "m12"
+      ],
+      "directQuestions": [
+        "q05-01",
+        "q05-02",
+        "q05-04",
+        "q05-06",
+        "q05-08",
+        "q06-01",
+        "q06-02",
+        "q06-03",
+        "q06-04",
+        "q06-05",
+        "q06-06",
+        "q06-07",
+        "q06-08",
+        "q06-09",
+        "q06-10",
+        "q09-04",
+        "q09-08",
+        "q11-10",
+        "q12-05"
+      ],
+      "supportingQuestions": [
+        "q05-03",
+        "q09-07"
+      ],
+      "scenarios": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "psm",
+      "focus": "Artifacts",
+      "lessons": [
+        "m04",
+        "m05",
+        "m07",
+        "m08"
+      ],
+      "directQuestions": [
+        "q04-01",
+        "q04-02",
+        "q04-03",
+        "q04-04",
+        "q04-05",
+        "q04-06",
+        "q04-07",
+        "q04-08",
+        "q04-09",
+        "q04-10",
+        "q08-03",
+        "q08-07"
+      ],
+      "supportingQuestions": [
+        "q05-05",
+        "q07-03"
+      ],
+      "scenarios": [
+        "s1",
+        "s8"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "psm",
+      "focus": "Done",
+      "lessons": [
+        "m07",
+        "m10",
+        "m12"
+      ],
+      "directQuestions": [
+        "q07-01",
+        "q07-02",
+        "q07-04",
+        "q07-05",
+        "q07-06",
+        "q07-07",
+        "q07-08",
+        "q07-09",
+        "q07-10",
+        "q10-07"
+      ],
+      "supportingQuestions": [
+        "q05-09",
+        "q12-07"
+      ],
+      "scenarios": [
+        "s2",
+        "s8"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "psm",
+      "focus": "Self-Managing Teams",
+      "lessons": [
+        "m03",
+        "m10",
+        "m11"
+      ],
+      "directQuestions": [
+        "q03-06",
+        "q03-10",
+        "q10-01",
+        "q10-03",
+        "q10-04",
+        "q10-06",
+        "q10-08",
+        "q10-09",
+        "q10-10"
+      ],
+      "supportingQuestions": [
+        "q01-09",
+        "q09-05",
+        "q11-02"
+      ],
+      "scenarios": [
+        "s3"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "psm",
+      "focus": "Facilitation",
+      "lessons": [
+        "m09",
+        "m11"
+      ],
+      "directQuestions": [
+        "q09-08",
+        "q11-05",
+        "q11-06"
+      ],
+      "supportingQuestions": [
+        "q09-04",
+        "q11-02",
+        "q11-08"
+      ],
+      "scenarios": [
+        "s3"
+      ],
+      "depth": "moderate; facilitation judgment is mainly in lessons and one scenario"
+    },
+    {
+      "exam": "psm",
+      "focus": "Coaching",
+      "lessons": [
+        "m09",
+        "m10",
+        "m11",
+        "m12"
+      ],
+      "directQuestions": [
+        "q10-06",
+        "q11-02",
+        "q11-09",
+        "q12-01"
+      ],
+      "supportingQuestions": [
+        "q09-05",
+        "q09-09",
+        "q10-08",
+        "q11-08"
+      ],
+      "scenarios": [
+        "s3",
+        "s4"
+      ],
+      "depth": "moderate"
+    },
+    {
+      "exam": "psm",
+      "focus": "Forecasting & Release Planning",
+      "lessons": [
+        "m07",
+        "m08",
+        "m12"
+      ],
+      "directQuestions": [
+        "q08-05",
+        "q08-10",
+        "q12-08"
+      ],
+      "supportingQuestions": [
+        "q05-10",
+        "q07-03"
+      ],
+      "scenarios": [
+        "s8",
+        "s4"
+      ],
+      "depth": "thin on release planning trade-offs; m15 and q15-06/q15-08 are excluded from PSM pool"
+    },
+    {
+      "exam": "psm",
+      "focus": "Product Value",
+      "lessons": [
+        "m01",
+        "m03",
+        "m07",
+        "m09",
+        "m12"
+      ],
+      "directQuestions": [
+        "q03-02",
+        "q07-07",
+        "q09-10",
+        "q12-03",
+        "q12-06"
+      ],
+      "supportingQuestions": [
+        "q02-08"
+      ],
+      "scenarios": [
+        "s1",
+        "s8"
+      ],
+      "depth": "Introductory customer-benefit and lifetime-cost trade-offs now taught and directly practiced; deepen with official reading and customer experience."
+    },
+    {
+      "exam": "psm",
+      "focus": "Product Backlog Management",
+      "lessons": [
+        "m03",
+        "m04",
+        "m08",
+        "m09",
+        "m12"
+      ],
+      "directQuestions": [
+        "q03-08",
+        "q04-08",
+        "q08-01",
+        "q08-02",
+        "q08-04",
+        "q08-06",
+        "q08-09",
+        "q09-02",
+        "q12-06"
+      ],
+      "supportingQuestions": [
+        "q12-08"
+      ],
+      "scenarios": [
+        "s1"
+      ],
+      "depth": "Framework mechanics and an applied ordering discussion are covered; the Product Owner remains accountable."
+    },
+    {
+      "exam": "psm",
+      "focus": "Stakeholders & Customers",
+      "lessons": [
+        "m03",
+        "m06",
+        "m09",
+        "m12"
+      ],
+      "directQuestions": [
+        "q03-08",
+        "q09-02",
+        "q11-05",
+        "q12-05",
+        "q12-06"
+      ],
+      "supportingQuestions": [
+        "q06-05",
+        "q12-09"
+      ],
+      "scenarios": [
+        "s1",
+        "s8"
+      ],
+      "depth": "Direct practice now includes conflicting stakeholder requests and evidence of customer outcomes; a course question is not a substitute for real collaboration experience."
+    },
+    {
+      "exam": "pspo",
+      "focus": "Empiricism",
+      "lessons": [
+        "m01",
+        "m02",
+        "m06",
+        "m08",
+        "m16"
+      ],
+      "directQuestions": [
+        "q01-01",
+        "q01-02",
+        "q01-03",
+        "q01-04",
+        "q01-05",
+        "q01-08",
+        "q01-10",
+        "q02-08",
+        "q16-05",
+        "q16-10"
+      ],
+      "supportingQuestions": [
+        "q08-10",
+        "q16-08"
+      ],
+      "scenarios": [
+        "s6",
+        "s8"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Scrum Team",
+      "lessons": [
+        "m03",
+        "m13",
+        "m14"
+      ],
+      "directQuestions": [
+        "q03-01",
+        "q03-02",
+        "q03-03",
+        "q03-04",
+        "q03-05",
+        "q03-06",
+        "q03-07",
+        "q03-09",
+        "q03-10",
+        "q13-01",
+        "q13-02",
+        "q14-01",
+        "q14-03"
+      ],
+      "supportingQuestions": [
+        "q14-08"
+      ],
+      "scenarios": [
+        "s5"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Events",
+      "lessons": [
+        "m05",
+        "m06",
+        "m15"
+      ],
+      "directQuestions": [
+        "q05-01",
+        "q05-02",
+        "q05-04",
+        "q05-06",
+        "q05-08",
+        "q06-01",
+        "q06-02",
+        "q06-03",
+        "q06-04",
+        "q06-05",
+        "q06-06",
+        "q06-07",
+        "q06-08",
+        "q06-09",
+        "q06-10",
+        "q15-07"
+      ],
+      "supportingQuestions": [
+        "q15-01"
+      ],
+      "scenarios": [
+        "s1",
+        "s2",
+        "s5"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Artifacts",
+      "lessons": [
+        "m04",
+        "m08",
+        "m13",
+        "m14"
+      ],
+      "directQuestions": [
+        "q04-01",
+        "q04-02",
+        "q04-03",
+        "q04-04",
+        "q04-05",
+        "q04-06",
+        "q04-07",
+        "q04-08",
+        "q04-09",
+        "q04-10",
+        "q08-03",
+        "q08-07",
+        "q13-03",
+        "q14-02"
+      ],
+      "supportingQuestions": [
+        "q13-06",
+        "q14-07"
+      ],
+      "scenarios": [
+        "s5"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Done",
+      "lessons": [
+        "m07",
+        "m15"
+      ],
+      "directQuestions": [
+        "q07-01",
+        "q07-02",
+        "q07-04",
+        "q07-05",
+        "q07-06",
+        "q07-07",
+        "q07-08",
+        "q07-09",
+        "q07-10"
+      ],
+      "supportingQuestions": [
+        "q15-01",
+        "q15-07"
+      ],
+      "scenarios": [
+        "s2",
+        "s8",
+        "s7"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Self-Managing Teams",
+      "lessons": [
+        "m03",
+        "m05",
+        "m08",
+        "m14"
+      ],
+      "directQuestions": [
+        "q03-06",
+        "q03-10",
+        "q04-09",
+        "q05-07",
+        "q08-01",
+        "q08-09"
+      ],
+      "supportingQuestions": [
+        "q03-03",
+        "q14-10"
+      ],
+      "scenarios": [
+        "s1"
+      ],
+      "depth": "adequate framework decisions; PSM track's richer coaching cases are excluded"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Forecasting & Release Planning",
+      "lessons": [
+        "m08",
+        "m15"
+      ],
+      "directQuestions": [
+        "q08-05",
+        "q08-10",
+        "q15-01",
+        "q15-06",
+        "q15-07",
+        "q15-08",
+        "q15-09"
+      ],
+      "supportingQuestions": [
+        "q05-10"
+      ],
+      "scenarios": [
+        "s8",
+        "s7"
+      ],
+      "depth": "solid at introductory level"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Product Vision",
+      "lessons": [
+        "m13"
+      ],
+      "directQuestions": [
+        "q13-07"
+      ],
+      "supportingQuestions": [
+        "q13-04",
+        "q13-05",
+        "q13-06"
+      ],
+      "scenarios": [],
+      "depth": "Direct definition question and applied vision-to-goal instruction. One direct question gives limited practice depth."
+    },
+    {
+      "exam": "pspo",
+      "focus": "Product Value",
+      "lessons": [
+        "m01",
+        "m07",
+        "m13",
+        "m15",
+        "m16"
+      ],
+      "directQuestions": [
+        "q07-07",
+        "q13-01",
+        "q15-02",
+        "q15-03",
+        "q15-04",
+        "q15-05",
+        "q15-09",
+        "q15-10",
+        "q16-08",
+        "q16-09",
+        "q16-10"
+      ],
+      "supportingQuestions": [
+        "q14-06"
+      ],
+      "scenarios": [
+        "s5",
+        "s6",
+        "s7"
+      ],
+      "depth": "solid; some Product Owner resource citations lack a precise article or section"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Product Backlog Management",
+      "lessons": [
+        "m04",
+        "m08",
+        "m13",
+        "m14"
+      ],
+      "directQuestions": [
+        "q04-08",
+        "q08-01",
+        "q08-02",
+        "q08-04",
+        "q08-06",
+        "q08-09",
+        "q13-02",
+        "q13-03",
+        "q14-01",
+        "q14-02",
+        "q14-03",
+        "q14-04",
+        "q14-06",
+        "q14-07",
+        "q14-08",
+        "q14-09",
+        "q14-10"
+      ],
+      "supportingQuestions": [
+        "q13-06"
+      ],
+      "scenarios": [
+        "s5"
+      ],
+      "depth": "solid"
+    },
+    {
+      "exam": "pspo",
+      "focus": "Business Strategy",
+      "lessons": [
+        "m13",
+        "m16"
+      ],
+      "directQuestions": [
+        "q13-10"
+      ],
+      "supportingQuestions": [
+        "q13-04",
+        "q13-05",
+        "q16-07"
+      ],
+      "scenarios": [
+        "s6"
+      ],
+      "depth": "Direct strategy-assumption question plus instruction connecting evidence to strategy and product goals. One direct question gives limited practice depth."
+    },
+    {
+      "exam": "pspo",
+      "focus": "Stakeholders & Customers",
+      "lessons": [
+        "m03",
+        "m06",
+        "m13",
+        "m14"
+      ],
+      "directQuestions": [
+        "q03-08",
+        "q13-08",
+        "q13-09",
+        "q14-04",
+        "q14-05",
+        "q14-08",
+        "q14-09"
+      ],
+      "supportingQuestions": [
+        "q06-05",
+        "q14-06"
+      ],
+      "scenarios": [
+        "s5"
+      ],
+      "depth": "solid at introductory level"
+    }
+  ],
+  "sourceFamilies": [
+    {
+      "family": "Scrum Guide",
+      "use": "Direct framework authority throughout lessons/questions/scenarios; section anchors provided",
+      "status": "used appropriately"
+    },
+    {
+      "family": "PSM I suggested reading",
+      "use": "m09 lesson link and Resources page; curated reading list, not direct rule authority",
+      "status": "used as a resource"
+    },
+    {
+      "family": "PSPO I suggested reading",
+      "use": "Resources page and m13 source links; curated suggested reading, not normative rule authority",
+      "status": "Used as a reading resource; the specification does not require reproducing every suggested book or article."
+    },
+    {
+      "family": "Resources for Growing as a Scrum Master",
+      "use": "m09-m11 and q11-06/q11-09 plus study task; broad collection URL",
+      "status": "Collection retained for guided study; graded items cite specific underlying official articles and named sections."
+    },
+    {
+      "family": "Resources for Product Owners",
+      "use": "m13-m16 and several q13-q15/s5/s7 plus study task; broad collection URL",
+      "status": "Collection retained for guided study; graded items cite specific underlying official articles and named sections."
+    },
+    {
+      "family": "Evidence-Based Management Guide",
+      "use": "m16, q15-10, q16-01 through q16-10, s6 and study task",
+      "status": "Separate EBM authority with named sections; no invented exam weight or anchor."
+    },
+    {
+      "family": "Official preparation guidance",
+      "use": "Resources page link only",
+      "status": "appropriate resource, not content authority"
+    },
+    {
+      "family": "Assessment conduct",
+      "use": "Resources, readiness and exam-facts UI links and summary",
+      "status": "appropriate rule authority for live-assessment conduct"
+    }
+  ],
+  "traceabilityFindings": [
+    "All 160 primary question references now identify a named section; collection-only question authority references replaced.",
+    "All 232 learning items have a dated source-review record tied to a content digest. Material question changes increment their versions.",
+    "Framework rules, supplemental source-defined concepts and situational recommendations are distinctly labeled.",
+    "This matrix maps each published focus area to instruction and eligible practice, without invented weights or pass probabilities."
+  ],
+  "recommendations": [
+    "Use official reading and Open Assessments alongside the course; finite original questions cannot reproduce live exam coverage or difficulty."
+  ],
+  "contentVersion": "1.2.0"
+}
