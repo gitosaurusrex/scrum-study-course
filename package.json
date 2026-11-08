@@ -1,6 +1,7 @@
 {
   "name": "scrum-study-studio",
   "private": true,
+  "license": "MIT AND CC-BY-SA-4.0",
   "description": "Buildless static course for PSM I and PSPO I preparation. The publishable site is in dist/.",
   "scripts": {
     "validate": "node scripts/validate-content.js",
